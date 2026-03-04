@@ -1,0 +1,34 @@
+# ClassGuard .gitignore
+
+# Student data (privacy)
+dataset/
+
+# Trained models (regenerate locally)
+trainer/
+
+# Attendance logs (personal data)
+logs/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+classguard_env/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary files
+*.log
+*.tmp
